@@ -34,3 +34,6 @@ See the ``samples/`` directory for anotated examples of spec-file syntax.
 
   pip uninstall aws-orgs
   rm ~/.local/bin/{awsorgs,awsaccounts,awsauth}
+  
+  **NOTE** Individual users .bash_profile **must** include the reference $HOME/.local in the path
+    PATH=$PATH:$HOME/.local/bin:$HOME/bin
